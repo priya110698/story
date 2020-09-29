@@ -147,43 +147,44 @@ class App extends React.Component {
                   </ThemeProvider>
                </Link>
              </li>
-             <li onClick={this.navNext} className="right">
-              <Link  to="/PageThree"> 
-              <ThemeProvider theme={theme}>
-                   <Button  theme={theme} variant="contained" color="primary" style={{color:"#fff"}}> Next &gt;&gt; </Button>
-                  </ThemeProvider>
-              </Link>
-            </li> 
+//              <li onClick={this.navNext} className="right">
+//               <Link  to="/PageThree"> 
+//               <ThemeProvider theme={theme}>
+//                    <Button  theme={theme} variant="contained" color="primary" style={{color:"#fff"}}> Next &gt;&gt; </Button>
+//                   </ThemeProvider>
+//               </Link>
+//             </li> 
            </ul>
             : 
-            this.state.count == 2 ? 
-            <ul>
-             <li onClick={this.navPrev}>
-              <Link to="/pageTwo"> 
-              <ThemeProvider theme={theme}>
-                   <Button  theme={theme} variant="contained" color="primary" style={{color:"#fff"}}> &lt;&lt; Prev </Button>
-                  </ThemeProvider>
-              </Link>
-            </li>
-            <li onClick={this.navNext} className="right">
-             <Link to="/PageFour"> 
-             <ThemeProvider theme={theme}>
-                   <Button  theme={theme} variant="contained" color="primary" style={{color:"#fff"}}> Next &gt;&gt; </Button>
-                  </ThemeProvider>
-             </Link>
-           </li>
-          </ul>
-          : 
-          this.state.count == 3 ? 
-          <ul>
-             <li onClick={this.navPrev}>
-              <Link to="/pageThree"> 
-              <ThemeProvider theme={theme}>
-                   <Button  theme={theme} variant="contained" color="primary" style={{color:"#fff"}}> &lt;&lt; Prev </Button>
-                  </ThemeProvider>
-              </Link>
-            </li>
-            </ul> : ''
+//             this.state.count == 2 ? 
+//             <ul>
+//              <li onClick={this.navPrev}>
+//               <Link to="/pageTwo"> 
+//               <ThemeProvider theme={theme}>
+//                    <Button  theme={theme} variant="contained" color="primary" style={{color:"#fff"}}> &lt;&lt; Prev </Button>
+//                   </ThemeProvider>
+//               </Link>
+//             </li>
+//             <li onClick={this.navNext} className="right">
+//              <Link to="/PageFour"> 
+//              <ThemeProvider theme={theme}>
+//                    <Button  theme={theme} variant="contained" color="primary" style={{color:"#fff"}}> Next &gt;&gt; </Button>
+//                   </ThemeProvider>
+//              </Link>
+//            </li>
+//           </ul>
+//           : 
+//           this.state.count == 3 ? 
+//           <ul>
+//              <li onClick={this.navPrev}>
+//               <Link to="/pageThree"> 
+//               <ThemeProvider theme={theme}>
+//                    <Button  theme={theme} variant="contained" color="primary" style={{color:"#fff"}}> &lt;&lt; Prev </Button>
+//                   </ThemeProvider>
+//               </Link>
+//             </li>
+//             </ul> : 
+    ''
           }
         </ul>
       </Switch>
