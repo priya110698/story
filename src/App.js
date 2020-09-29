@@ -124,8 +124,8 @@ class App extends React.Component {
       <Router>
       <Route exact path="/" component={BackToTop}></Route>  
       <Route exact path="/pageTwo" component={PagesTwo}></Route> 
-      <Route exact path="/PageThree" component={PageThree}></Route> 
-      <Route exact path="/pageFour" component={PageFour}></Route> 
+//       <Route exact path="/PageThree" component={PageThree}></Route> 
+//       <Route exact path="/pageFour" component={PageFour}></Route> 
       <Switch>
        <ul className="navButton">
          { 
